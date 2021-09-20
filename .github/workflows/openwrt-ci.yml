@@ -76,6 +76,9 @@ jobs:
           CONFIG_TARGET_IMAGES_GZIP=y
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
+          CONFIG_PACKAGE_luci-app-webadmin=y
+          CONFIG_PACKAGE_luci-app-ssr-plus-INCLUDE_v2ray=y
+          CONFIG_PACKAGE_luci-app-ssr-plus-INCLUDE_ShadowsocksR_Socks=y
           EOF
 
           #
